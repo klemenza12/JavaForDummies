@@ -3,6 +3,7 @@ public class ShowTeamFrame {
 
 	public static void main(String[] args) throws IOException {
 		new TeamFrame();
+		System.out.println("test");
 	}
-
+	
 }
