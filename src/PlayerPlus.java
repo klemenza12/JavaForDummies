@@ -21,5 +21,4 @@ public class PlayerPlus extends Player {
 	public static String fingTeamAverageString(){
 		return decFormat.format((totalOfAverages  / playerCount));
 	}
-	
 }
