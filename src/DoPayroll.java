@@ -4,10 +4,11 @@ import java.io.IOException;
 public class DoPayroll {
 
 	public static void main(String[] args) throws IOException {
-		Scanner diskScanner = new Scanner (new File("EmployeeInfo.txt"));
-		for (int empNum = 1; empNum <= 3; empNum++) {
-			payOneEmployee(diskScanner);
-		}
+		try(Scanner diskScanner = new Scanner (new File("EmployeeInfo.txt"))){
+			for (int empNum = 1; empNum <= 3; empNum++) {
+				payOneEmployee(diskScanner);
+			}
+		}	
 		
 	}
 	static void payOneEmployee(Scanner aScanner){
