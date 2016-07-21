@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Thu Jul 21 22:44:35 EEST 2016:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.2 - (1629631): instance a816c00e-0156-0efc-f9ef-0000030ea0d0 
+on database directory /home/klemenza/workspace/JavaForDummies/AccountDatabase with class loader sun.misc.Launcher$AppClassLoader@c387f44 
+Loaded from file:/usr/lib/java-1.8.0/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_71-b15
+user.dir=/home/klemenza/workspace/JavaForDummies
+os.name=Linux
+os.arch=amd64
+os.version=3.10.0-327.10.1.el7.x86_64
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
